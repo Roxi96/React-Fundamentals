@@ -2,10 +2,10 @@ import ReactDom from 'react-dom';
 
 
 
-const TarjetaFruta = (props) => {
+const TarjetaFruta = () => {
   return (
     <div>
-      <h3>{props.name}</h3>
+      <h3>Titulo</h3>
       <hr />
       <p>Description....</p>
   </div>
@@ -14,9 +14,9 @@ const TarjetaFruta = (props) => {
 
 const App = () =>(
   <div>
-    <TarjetaFruta name='Roxi'/>
-    <TarjetaFruta name='andy'/>
-    <TarjetaFruta name='leo'/>
+    <TarjetaFruta />
+    <TarjetaFruta />
+    <TarjetaFruta />
   </div>
 )
 
